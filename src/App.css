@@ -15,7 +15,7 @@
 }
 
 .main:before {
-  background: radial-gradient(circle, rgba(2, 0, 36, 0) 0, #fafafa 100%);
+  background: radial-gradient(circle, rgba(2, 0, 36, 0) 0, #1e297d 100%);
   position: absolute;
   content: "";
   z-index: 2;
@@ -81,9 +81,10 @@
   @apply mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl text-center;
 }
 
-.orange_gradient {
-  @apply bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent;
+.Red_gradient {
+  @apply bg-gradient-to-r from-red-500 via-pink-500 to-red-600 bg-clip-text text-transparent;
 }
+
 
 .desc {
   @apply mt-5 text-lg text-gray-600 sm:text-xl text-center max-w-2xl;

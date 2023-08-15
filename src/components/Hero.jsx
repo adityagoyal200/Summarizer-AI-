@@ -9,7 +9,7 @@ const Hero = () => {
         <button
           type='button'
           onClick={() =>
-            window.open("https://github.com/TidbitsJS/Summize", "_blank")
+            window.open("https://github.com/adityagoyal200/Summarizer-AI-", "_blank")
           }
           className='black_btn'
         >
@@ -19,11 +19,10 @@ const Hero = () => {
 
       <h1 className='head_text'>
         Summarize your Articles <br className='max-md:hidden' />
-        <span className='orange_gradient '>AI and GPT</span>
+        <span className='Red_gradient '>With AI</span>
       </h1>
       <h2 className='desc'>
-        Simplify your reading with Summarize, an open-source article summarizer
-        that transforms lengthy articles into clear and concise summaries
+      Summarize is a freely available article summarizer tool.This tool aims to streamline the reading process by extracting and presenting the most important points from the original content.
       </h2>
     </header>
   );
